@@ -2,10 +2,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:maintenex/Features/Home/screens/home_screens.dart';
+
 import 'package:maintenex/Features/authentication/screens/signup/verify_email.dart';
 import 'package:maintenex/features/authentication/screens/login/login.dart';
 import 'package:maintenex/features/authentication/screens/onboarding/onboarding.dart';
+
+import '../../../Features/Home/screens/home_screens.dart';
 
 class AuthenticationRepository extends GetxController{
   static AuthenticationRepository get instance => Get.find();
