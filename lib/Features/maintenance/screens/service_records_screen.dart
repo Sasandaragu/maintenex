@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/Home/screens/home_screens.dart';
-import 'package:maintenex/Features/maintenance/models/service_record/service_record_model.dart';
-import 'package:maintenex/Features/maintenance/screens/Records_description_screen.dart';
-import 'package:maintenex/Features/maintenance/screens/service_records_display_screen.dart';
-import 'package:maintenex/Features/maintenance/screens/service_records_form_screen.dart';
-import 'package:maintenex/common/widgets/appbar.dart';
-import 'package:maintenex/data/repositories/maintenex/service_record/serviceRecordRepository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../common/widgets/appbar.dart';
+import '../../../data/repositories/maintenex/service_record/serviceRecordRepository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../models/service_record/service_record_model.dart';
+import 'Records_description_screen.dart';
+import 'service_records_display_screen.dart';
+import 'service_records_form_screen.dart';
+
 
 class ServiceRecordsScreen extends StatefulWidget {
   const ServiceRecordsScreen({super.key});

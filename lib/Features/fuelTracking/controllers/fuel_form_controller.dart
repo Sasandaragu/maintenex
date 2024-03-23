@@ -1,10 +1,12 @@
 import 'package:get/get.dart';
-import 'package:maintenex/Features/fuelTracking/models/fuel_record_model.dart';
-import 'package:maintenex/Features/fuelTracking/screens/fuel_display.dart';
-import 'package:maintenex/data/repositories/fuel/fuel_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/utils/helpers/network_manager.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../data/repositories/fuel/fuel_repository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../../utils/helpers/network_manager.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../models/fuel_record_model.dart';
+import '../screens/fuel_display.dart';
+
 
 class FuelController {
   final VehicleRepository vehicleRepository = VehicleRepository();

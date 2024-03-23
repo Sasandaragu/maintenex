@@ -2,15 +2,17 @@
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:maintenex/Features/mileage/Screens/addMileage.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/features/documents/models/document_model.dart';
-import 'package:maintenex/features/documents/screens/uploading_screen.dart';
-import 'package:maintenex/features/reminders/models/milestone_model.dart';
-import 'package:maintenex/features/reminders/screens/reminders_screen.dart';
+
 import 'package:rxdart/rxdart.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:timezone/timezone.dart' as tz;
+
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../documents/models/document_model.dart';
+import '../../documents/screens/uploading_screen.dart';
+import '../../mileage/Screens/addMileage.dart';
+import '../models/milestone_model.dart';
+import 'reminders_screen.dart';
 
 class LocalNotifications {
 

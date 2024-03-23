@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:maintenex/Features/mileage/models/mileage_record_model.dart';
-import 'package:maintenex/Features/personalization/controllers/user_controller.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/mileage/mileage_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/features/mileage/Screens/mileageScreens.dart';
-import 'package:maintenex/features/mileage/models/mileageModels.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../data/repositories/mileage/mileage_repository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
 import '../../../utils/helpers/network_manager.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../../personalization/controllers/user_controller.dart';
+import '../Screens/mileageScreens.dart';
+import '../models/mileageModels.dart';
+import '../models/mileage_record_model.dart';
 
 class MileageController {
   final List<MileageEntry> _mileages = [];

@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/personalization/controllers/user_controller.dart';
-import 'package:maintenex/common/widgets/appbar.dart';
-import 'package:maintenex/common/widgets/circular_image.dart';
-import 'package:maintenex/common/widgets/confirmation.dart';
-import 'package:maintenex/common/widgets/profile_menu.dart';
-import 'package:maintenex/common/widgets/section_heading.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/user/user_repository.dart';
-import 'package:maintenex/utils/constants/image_strings.dart';
-import 'package:maintenex/utils/constants/sizes.dart';
+
+import '../../../common/widgets/appbar.dart';
+import '../../../common/widgets/circular_image.dart';
+import '../../../common/widgets/confirmation.dart';
+import '../../../common/widgets/profile_menu.dart';
+import '../../../common/widgets/section_heading.dart';
+import '../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../data/repositories/user/user_repository.dart';
+import '../../../utils/constants/image_strings.dart';
+import '../../../utils/constants/sizes.dart';
+import '../controllers/user_controller.dart';
+
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});

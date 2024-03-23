@@ -1,9 +1,11 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:maintenex/Features/maintenance/controllers/repair_records_controllers.dart';
-import 'package:maintenex/Features/maintenance/screens/repair_records_screen.dart';
-import 'package:maintenex/utils/validators/validation.dart';
+
+import '../../../utils/validators/validation.dart';
+import '../controllers/repair_records_controllers.dart';
+import 'repair_records_screen.dart';
+
 
 class RepairRecordForm extends StatefulWidget {
   @override

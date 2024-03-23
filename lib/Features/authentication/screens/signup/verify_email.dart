@@ -1,12 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/authentication/controllers/signup/verify_email_controller.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/utils/constants/image_strings.dart';
-import 'package:maintenex/utils/constants/sizes.dart';
-import 'package:maintenex/utils/constants/text_strings.dart';
-import 'package:maintenex/utils/helpers/helper_functions.dart';
+
+import '../../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/constants/text_strings.dart';
+import '../../../../utils/helpers/helper_functions.dart';
+import '../../controllers/signup/verify_email_controller.dart';
+
 
 class VerifyEmailScreen extends StatelessWidget {
   const VerifyEmailScreen({super.key, this.email});

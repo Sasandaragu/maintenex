@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:intl/intl.dart';
-import 'package:maintenex/data/repositories/documents/documents_repository.dart';
-import 'package:maintenex/features/Home/screens/home_screens.dart';
-import 'package:maintenex/features/documents/controllers/upload_controller.dart';
-import 'package:maintenex/features/documents/screens/viewDocuments_screen.dart';
-import 'package:maintenex/features/reminders/screens/local_notifications.dart';
-import 'package:maintenex/utils/validators/validation.dart';
+
+import '../../../utils/validators/validation.dart';
+import '../controllers/upload_controller.dart';
+import 'viewDocuments_screen.dart';
+
 
 
 class DocumentsPage extends StatefulWidget {

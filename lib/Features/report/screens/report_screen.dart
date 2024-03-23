@@ -2,17 +2,19 @@ import 'dart:typed_data';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:maintenex/Features/personalization/models/user_model.dart';
-import 'package:maintenex/Features/vehicle/models/vehicle_model.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/maintenex/part_replacement/partReplacementRecordRepository.dart';
-import 'package:maintenex/data/repositories/maintenex/repair_record/repairRecordRepository.dart';
-import 'package:maintenex/data/repositories/maintenex/service_record/serviceRecordRepository.dart';
-import 'package:maintenex/data/repositories/mileage/mileage_repository.dart';
-import 'package:maintenex/data/repositories/user/user_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
+
 import 'package:path_provider/path_provider.dart';
 import 'package:pdf/widgets.dart' as pw;
+
+import '../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../data/repositories/maintenex/part_replacement/partReplacementRecordRepository.dart';
+import '../../../data/repositories/maintenex/repair_record/repairRecordRepository.dart';
+import '../../../data/repositories/maintenex/service_record/serviceRecordRepository.dart';
+import '../../../data/repositories/mileage/mileage_repository.dart';
+import '../../../data/repositories/user/user_repository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../personalization/models/user_model.dart';
+import '../../vehicle/models/vehicle_model.dart';
 
 class ReportScreen extends StatefulWidget {
   @override

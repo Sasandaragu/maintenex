@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/maintenance/models/repair_record/repair_record_model.dart';
-import 'package:maintenex/Features/maintenance/screens/Records_description_screen.dart';
-import 'package:maintenex/Features/maintenance/screens/repair_records_display_screen.dart';
-import 'package:maintenex/Features/maintenance/screens/repair_records_form_screen.dart';
-import 'package:maintenex/common/widgets/appbar.dart';
-import 'package:maintenex/data/repositories/maintenex/repair_record/repairRecordRepository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../common/widgets/appbar.dart';
+import '../../../data/repositories/maintenex/repair_record/repairRecordRepository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../models/repair_record/repair_record_model.dart';
+import 'Records_description_screen.dart';
+import 'repair_records_display_screen.dart';
+import 'repair_records_form_screen.dart';
+
 
 class RepairRecordsScreen extends StatefulWidget {
   const RepairRecordsScreen({Key? key}) : super(key: key);

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:maintenex/Features/maintenance/controllers/service_records_controllers.dart';
-import 'package:maintenex/Features/maintenance/models/service_record/service_record_model.dart';
-import 'package:maintenex/common/widgets/confirmation.dart';
+
 import 'package:url_launcher/url_launcher.dart';
+
+import '../../../common/widgets/confirmation.dart';
+import '../controllers/service_records_controllers.dart';
+import '../models/service_record/service_record_model.dart';
 
 class ServiceRecordDetailScreen extends StatelessWidget {
   final ServiceRecordModel serviceRecord;

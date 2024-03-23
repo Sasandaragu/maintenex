@@ -1,9 +1,11 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:maintenex/Features/maintenance/controllers/service_records_controllers.dart';
-import 'package:maintenex/Features/maintenance/screens/service_records_screen.dart';
-import 'package:maintenex/utils/validators/validation.dart';
+
+import '../../../utils/validators/validation.dart';
+import '../controllers/service_records_controllers.dart';
+import 'service_records_screen.dart';
+
 
 class ServiceRecordForm extends StatefulWidget {
   const ServiceRecordForm({super.key});

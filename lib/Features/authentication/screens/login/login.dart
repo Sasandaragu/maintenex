@@ -2,15 +2,17 @@ import 'package:flutter/material.dart';
 // ignore: unused_import
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:maintenex/Features/authentication/controllers/login/login_controller.dart';
-import 'package:maintenex/Features/authentication/screens/forget_password/forget_password.dart';
-import 'package:maintenex/common/styles/spacing_styles.dart';
-import 'package:maintenex/features/authentication/screens/signup/signup.dart';
-import 'package:maintenex/utils/constants/colors.dart';
-import 'package:maintenex/utils/constants/image_strings.dart';
-import 'package:maintenex/utils/constants/sizes.dart';
-import 'package:maintenex/utils/constants/text_strings.dart';
-import 'package:maintenex/utils/validators/validation.dart';
+
+import '../../../../common/styles/spacing_styles.dart';
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/image_strings.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/constants/text_strings.dart';
+import '../../../../utils/validators/validation.dart';
+import '../../controllers/login/login_controller.dart';
+import '../forget_password/forget_password.dart';
+import '../signup/signup.dart';
+
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

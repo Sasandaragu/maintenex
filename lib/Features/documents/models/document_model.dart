@@ -1,5 +1,3 @@
-
-
 class VehicleDocument {
   String documentType;
   String expiryDate;

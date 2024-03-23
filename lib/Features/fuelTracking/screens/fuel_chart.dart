@@ -2,8 +2,10 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/utils/constants/colors.dart';
+
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../../utils/constants/colors.dart';
+
 
 class FuelUsageChart extends StatelessWidget {
   final String userId;

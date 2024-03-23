@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:maintenex/Features/vehicle/controllers/vehicle_controller.dart';
-import 'package:maintenex/utils/constants/sizes.dart';
+
+import '../../../utils/constants/sizes.dart';
 import '../../../utils/validators/validation.dart';
+import '../controllers/vehicle_controller.dart';
 
 class VehicleScreen extends StatelessWidget {
   const VehicleScreen({super.key});

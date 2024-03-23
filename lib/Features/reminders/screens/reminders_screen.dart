@@ -2,18 +2,19 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/maintenance/models/part_replacement_record/part_raplacement_record_model.dart';
-import 'package:maintenex/Features/maintenance/models/service_record/service_record_model.dart';
-import 'package:maintenex/Features/maintenance/screens/part_replacement_records_display_screen.dart';
-import 'package:maintenex/Features/maintenance/screens/service_records_display_screen.dart';
-import 'package:maintenex/common/widgets/appbar.dart';
-import 'package:maintenex/data/repositories/maintenex/part_replacement/partReplacementRecordRepository.dart';
-import 'package:maintenex/data/repositories/maintenex/service_record/serviceRecordRepository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/features/Home/screens/home_screens.dart';
-import 'package:maintenex/features/reminders/controllers/remindersController.dart';
-import 'package:maintenex/features/reminders/models/milestone_model.dart';
-import 'package:maintenex/utils/poppups/loaders.dart'; 
+
+import '../../../common/widgets/appbar.dart';
+import '../../../data/repositories/maintenex/part_replacement/partReplacementRecordRepository.dart';
+import '../../../data/repositories/maintenex/service_record/serviceRecordRepository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../../Home/screens/home_screens.dart';
+import '../../maintenance/models/part_replacement_record/part_raplacement_record_model.dart';
+import '../../maintenance/models/service_record/service_record_model.dart';
+import '../../maintenance/screens/part_replacement_records_display_screen.dart';
+import '../../maintenance/screens/service_records_display_screen.dart';
+import '../controllers/remindersController.dart';
+import '../models/milestone_model.dart';
 
 
 class ReminderScreen extends StatefulWidget {

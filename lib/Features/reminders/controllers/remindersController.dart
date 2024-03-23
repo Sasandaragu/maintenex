@@ -1,8 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/features/reminders/models/milestone_model.dart';
+
+import '../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../models/milestone_model.dart';
+
 
 class ReminderController extends GetxController {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

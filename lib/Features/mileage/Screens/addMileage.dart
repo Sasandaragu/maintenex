@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:maintenex/Features/mileage/controllers/mileageControllers.dart';
-import 'package:maintenex/features/mileage/models/mileageModels.dart';
-import 'package:maintenex/features/reminders/screens/local_notifications.dart';
+
+import '../../reminders/screens/local_notifications.dart';
+import '../controllers/mileageControllers.dart';
+import '../models/mileageModels.dart';
+
 
 class AddMileageScreen extends StatefulWidget {
   final Function(MileageEntry) onMileageAdded;

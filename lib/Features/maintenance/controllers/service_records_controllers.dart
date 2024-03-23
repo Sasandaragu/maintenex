@@ -1,11 +1,13 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/Home/screens/home_screens.dart';
-import 'package:maintenex/Features/maintenance/models/service_record/service_record_model.dart';
-import 'package:maintenex/Features/maintenance/screens/service_records_screen.dart';
-import 'package:maintenex/data/repositories/maintenex/service_record/serviceRecordRepository.dart';
-import 'package:maintenex/utils/helpers/network_manager.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../data/repositories/maintenex/service_record/serviceRecordRepository.dart';
+import '../../../utils/helpers/network_manager.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../../Home/screens/home_screens.dart';
+import '../models/service_record/service_record_model.dart';
+import '../screens/service_records_screen.dart';
+
 
 class ServiceRecordController {
   final ServiceRecordRepository _repository = ServiceRecordRepository();

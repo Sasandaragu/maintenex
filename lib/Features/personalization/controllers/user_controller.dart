@@ -1,12 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/mileage/models/mileage_record_model.dart';
-import 'package:maintenex/Features/personalization/models/user_model.dart';
-import 'package:maintenex/Features/vehicle/models/vehicle_model.dart';
-import 'package:maintenex/data/repositories/mileage/mileage_repository.dart';
-import 'package:maintenex/data/repositories/user/user_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../data/repositories/user/user_repository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../../vehicle/models/vehicle_model.dart';
+import '../models/user_model.dart';
+
 
 class UserController extends GetxController {
   static UserController get instance => Get.find();

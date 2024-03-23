@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:maintenex/Features/maintenance/controllers/part_replacement_records_controllers.dart';
-import 'package:maintenex/Features/maintenance/models/part_replacement_record/part_raplacement_record_model.dart';
-import 'package:maintenex/common/widgets/confirmation.dart';
+
 import 'package:url_launcher/url_launcher.dart';
+
+import '../../../common/widgets/confirmation.dart';
+import '../controllers/part_replacement_records_controllers.dart';
+import '../models/part_replacement_record/part_raplacement_record_model.dart';
 
 class PartReplacementRecordDetailScreen extends StatelessWidget {
   final PartReplacementRecordModel partReplacementRecord;

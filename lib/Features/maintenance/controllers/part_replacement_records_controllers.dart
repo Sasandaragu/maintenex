@@ -1,11 +1,13 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/Home/screens/home_screens.dart';
-import 'package:maintenex/Features/maintenance/models/part_replacement_record/part_raplacement_record_model.dart';
-import 'package:maintenex/Features/maintenance/screens/part_replacement_records_screen.dart';
-import 'package:maintenex/data/repositories/maintenex/part_replacement/partReplacementRecordRepository.dart';
-import 'package:maintenex/utils/helpers/network_manager.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../data/repositories/maintenex/part_replacement/partReplacementRecordRepository.dart';
+import '../../../utils/helpers/network_manager.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../../Home/screens/home_screens.dart';
+import '../models/part_replacement_record/part_raplacement_record_model.dart';
+import '../screens/part_replacement_records_screen.dart';
+
 
 class PartReplacementRecordController {
   final PartReplacementRecordRepository _repository =

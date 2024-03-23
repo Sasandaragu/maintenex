@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:maintenex/Features/maintenance/models/repair_record/repair_record_model.dart';
+
+import '../models/repair_record/repair_record_model.dart';
+
 
 class RepairRecordDetailScreen extends StatelessWidget {
   final RepairRecordModel repairRecord;

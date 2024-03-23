@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/maintenance/models/part_replacement_record/part_raplacement_record_model.dart';
-import 'package:maintenex/Features/maintenance/screens/Records_description_screen.dart';
-import 'package:maintenex/Features/maintenance/screens/part_replacement_records_display_screen.dart';
-import 'package:maintenex/Features/maintenance/screens/part_replacement_records_form_screen.dart';
-import 'package:maintenex/common/widgets/appbar.dart';
-import 'package:maintenex/data/repositories/maintenex/part_replacement/partReplacementRecordRepository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../common/widgets/appbar.dart';
+import '../../../data/repositories/maintenex/part_replacement/partReplacementRecordRepository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../models/part_replacement_record/part_raplacement_record_model.dart';
+import 'Records_description_screen.dart';
+import 'part_replacement_records_display_screen.dart';
+import 'part_replacement_records_form_screen.dart';
 
 class PartReplacementRecordsScreen extends StatefulWidget {
   const PartReplacementRecordsScreen({Key? key}) : super(key: key);

@@ -1,10 +1,11 @@
 import 'package:get/get.dart';
-import 'package:maintenex/Features/Home/screens/home_screens.dart';
-import 'package:maintenex/data/repositories/documents/documents_repository.dart';
-import 'package:maintenex/features/documents/models/document_model.dart';
-import 'package:maintenex/features/reminders/screens/local_notifications.dart';
-import 'package:maintenex/utils/helpers/network_manager.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+import '../../../data/repositories/documents/documents_repository.dart';
+import '../../../utils/helpers/network_manager.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../../Home/screens/home_screens.dart';
+import '../../reminders/screens/local_notifications.dart';
+import '../models/document_model.dart';
+
 
 class DocumentUploadController{
   final DocumentRepository _docRepository = DocumentRepository();

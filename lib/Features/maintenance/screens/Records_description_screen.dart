@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/Home/screens/home_screens.dart';
-import 'package:maintenex/Features/maintenance/screens/part_replacement_records_screen.dart';
-import 'package:maintenex/Features/maintenance/screens/repair_records_screen.dart';
-import 'package:maintenex/Features/maintenance/screens/service_records_screen.dart';
-import 'package:maintenex/common/widgets/appbar.dart';
+
+import '../../../common/widgets/appbar.dart';
+import '../../Home/screens/home_screens.dart';
+import 'part_replacement_records_screen.dart';
+import 'repair_records_screen.dart';
+import 'service_records_screen.dart';
+
 
 class ExplanationScreen extends StatelessWidget {
   const ExplanationScreen({super.key});

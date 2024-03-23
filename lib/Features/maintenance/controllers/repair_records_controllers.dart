@@ -1,10 +1,12 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/Home/screens/home_screens.dart';
-import 'package:maintenex/Features/maintenance/models/repair_record/repair_record_model.dart';
-import 'package:maintenex/data/repositories/maintenex/repair_record/repairRecordRepository.dart';
-import 'package:maintenex/utils/helpers/network_manager.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../data/repositories/maintenex/repair_record/repairRecordRepository.dart';
+import '../../../utils/helpers/network_manager.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../../Home/screens/home_screens.dart';
+import '../models/repair_record/repair_record_model.dart';
+
 
 class RepairRecordController {
   final RepairRecordRepository _repository = RepairRecordRepository();

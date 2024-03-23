@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/fuelTracking/screens/fuel_chart.dart';
-import 'package:maintenex/Features/fuelTracking/screens/fuel_form.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
+
+import '../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import 'fuel_chart.dart';
+import 'fuel_form.dart';
+
 
 class FuelScreen extends StatefulWidget {
   const FuelScreen({super.key});

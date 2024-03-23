@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:maintenex/Features/authentication/controllers/signup/signup_controller.dart';
-import 'package:maintenex/Features/authentication/screens/login/login.dart';
-import 'package:maintenex/utils/constants/colors.dart';
-import 'package:maintenex/utils/constants/sizes.dart';
-import 'package:maintenex/utils/constants/text_strings.dart';
-import 'package:maintenex/utils/validators/validation.dart';
+
+import '../../../../utils/constants/colors.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/constants/text_strings.dart';
+import '../../../../utils/validators/validation.dart';
+import '../../controllers/signup/signup_controller.dart';
+
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});

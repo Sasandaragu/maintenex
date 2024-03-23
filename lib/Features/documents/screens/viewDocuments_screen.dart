@@ -2,13 +2,15 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/data/repositories/documents/documents_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/features/Home/screens/home_screens.dart';
-import 'package:maintenex/features/documents/models/document_model.dart';
-import 'package:maintenex/features/documents/screens/uploading_screen.dart';
-import 'package:maintenex/utils/constants/sizes.dart';
+
 import 'package:url_launcher/url_launcher.dart';
+
+import '../../../data/repositories/documents/documents_repository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../../utils/constants/sizes.dart';
+import '../../Home/screens/home_screens.dart';
+import '../models/document_model.dart';
+import 'uploading_screen.dart';
 
 class ViewDocuments extends StatefulWidget {
   const ViewDocuments({Key? key}) : super(key: key);

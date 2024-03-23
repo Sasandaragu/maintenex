@@ -1,10 +1,12 @@
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/report/screens/report_screen.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
+
 import 'package:url_launcher/url_launcher.dart';
+
+import '../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import 'report_screen.dart';
 
 class ReportsListScreen extends StatefulWidget {
   String userID = AuthenticationRepository.instance.authUser!.uid;

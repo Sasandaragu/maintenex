@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/Home/screens/home_screens.dart';
-import 'package:maintenex/Features/mileage/models/mileage_record_model.dart';
-import 'package:maintenex/Features/personalization/controllers/user_controller.dart';
-import 'package:maintenex/common/widgets/appbar.dart';
-import 'package:maintenex/data/repositories/mileage/mileage_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
-import 'package:maintenex/features/mileage/Screens/addMileage.dart';
-import 'package:maintenex/features/mileage/controllers/mileageControllers.dart';
+
+import '../../../common/widgets/appbar.dart';
+import '../../../data/repositories/mileage/mileage_repository.dart';
+import '../../../data/repositories/vehicle/vehicle_repository.dart';
+import '../../Home/screens/home_screens.dart';
+import '../../personalization/controllers/user_controller.dart';
+import '../controllers/mileageControllers.dart';
+import '../models/mileage_record_model.dart';
+import 'addMileage.dart';
+
 
 
 class MileageTrackingApp extends StatefulWidget {

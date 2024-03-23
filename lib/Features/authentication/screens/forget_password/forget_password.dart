@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:maintenex/Features/authentication/controllers/forget_password/forget_password_controller.dart';
-import 'package:maintenex/common/widgets/appbar.dart';
-import 'package:maintenex/utils/constants/sizes.dart';
-import 'package:maintenex/utils/validators/validation.dart';
+
+import '../../../../common/widgets/appbar.dart';
+import '../../../../utils/constants/sizes.dart';
+import '../../../../utils/validators/validation.dart';
+import '../../controllers/forget_password/forget_password_controller.dart';
+
 
 class ForgetPassword extends StatelessWidget {
   const ForgetPassword({super.key});
