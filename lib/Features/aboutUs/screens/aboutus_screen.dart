@@ -75,7 +75,7 @@ class AboutUsPage extends StatelessWidget {
                   ), 
                   SizedBox(height: 20),
                   Text(
-                    "What Sets Us Apart.",
+                    "What Sets Us Apart",
                     style: TextStyle(
                       fontSize: TSizes.fontSizeMd,fontWeight: FontWeight.bold,                    ),
                   ),
