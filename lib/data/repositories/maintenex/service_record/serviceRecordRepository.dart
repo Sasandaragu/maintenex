@@ -4,11 +4,13 @@ import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:maintenex/Features/maintenance/models/service_record/service_record_model.dart';
-import 'package:maintenex/Features/reminders/models/milestone_model.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
+
 import 'package:path/path.dart' as Path;
+
+import '../../../../Features/maintenance/models/service_record/service_record_model.dart';
+import '../../../../features/reminders/models/milestone_model.dart';
+import '../../authentication/authentication_repository.dart';
+import '../../vehicle/vehicle_repository.dart';
 
 //class ServiceRecordRepository{
 

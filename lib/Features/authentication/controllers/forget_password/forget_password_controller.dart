@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/utils/helpers/network_manager.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../../utils/helpers/network_manager.dart';
+import '../../../../utils/poppups/loaders.dart';
+
 
 class ForgetPasswordController extends GetxController {
   static ForgetPasswordController get instance => Get.find();

@@ -3,10 +3,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:intl/intl.dart';
-import 'package:maintenex/Features/maintenance/models/repair_record/repair_record_model.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
+
 import 'package:path/path.dart' as Path;
+
+import '../../../../Features/maintenance/models/repair_record/repair_record_model.dart';
+import '../../authentication/authentication_repository.dart';
+import '../../vehicle/vehicle_repository.dart';
 
 class RepairRecordRepository {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:maintenex/utils/constants/image_strings.dart';
-import 'package:maintenex/utils/constants/sizes.dart';
-import 'package:maintenex/utils/theme/theme.dart';
+
+import '../../../utils/constants/image_strings.dart';
+import '../../../utils/constants/sizes.dart';
+import '../../../utils/theme/theme.dart';
+
 
 void main() {
   runApp(const MyApp());

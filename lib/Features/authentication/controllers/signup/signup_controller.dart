@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/authentication/screens/signup/verify_email.dart';
-import 'package:maintenex/Features/personalization/models/user_model.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/user/user_repository.dart';
-import 'package:maintenex/utils/helpers/network_manager.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../../data/repositories/authentication/authentication_repository.dart';
+import '../../../../data/repositories/user/user_repository.dart';
+import '../../../../utils/helpers/network_manager.dart';
+import '../../../../utils/poppups/loaders.dart';
+import '../../../personalization/models/user_model.dart';
+import '../../screens/signup/verify_email.dart';
+
 
 class SignupController extends GetxController{
   static SignupController get instance => Get.find();

@@ -1,11 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/Home/screens/home_screens.dart';
-import 'package:maintenex/Features/vehicle/models/vehicle_model.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/features/reminders/models/milestone_model.dart';
-import 'package:maintenex/features/reminders/screens/local_notifications.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../../Features/vehicle/models/vehicle_model.dart';
+import '../../../features/Home/screens/home_screens.dart';
+import '../../../features/reminders/models/milestone_model.dart';
+import '../../../features/reminders/screens/local_notifications.dart';
+import '../authentication/authentication_repository.dart';
 
 class VehicleRepository extends GetxController {
   static VehicleRepository get instance => Get.find();

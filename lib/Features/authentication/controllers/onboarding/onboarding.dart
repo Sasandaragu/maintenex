@@ -3,8 +3,10 @@ import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:maintenex/features/authentication/screens/login/login.dart';
+
 import '../../models/onboarding/onboarding.dart';
+import '../../screens/login/login.dart';
+
 
 class OnboardingController with ChangeNotifier {
   final PageController pageController = PageController(initialPage: 0);

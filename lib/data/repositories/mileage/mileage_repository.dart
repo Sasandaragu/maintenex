@@ -1,9 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:maintenex/Features/mileage/models/mileage_record_model.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/data/repositories/vehicle/vehicle_repository.dart';
+
+import '../../../Features/mileage/models/mileage_record_model.dart';
+import '../authentication/authentication_repository.dart';
+import '../vehicle/vehicle_repository.dart';
+
 
 class MileageRepository extends GetxController{
   static MileageRepository get instance => Get.find();

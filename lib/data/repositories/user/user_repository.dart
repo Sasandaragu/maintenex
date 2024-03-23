@@ -1,8 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:maintenex/Features/personalization/models/user_model.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/utils/poppups/loaders.dart';
+
+import '../../../Features/personalization/models/user_model.dart';
+import '../../../utils/poppups/loaders.dart';
+import '../authentication/authentication_repository.dart';
+
 
 class UserRepository extends GetxController {
   static UserRepository get instance => Get.find();
