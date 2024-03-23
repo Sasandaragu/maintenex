@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:maintenex/bindings/general_bindings.dart';
-import 'package:maintenex/utils/constants/colors.dart';
-import 'package:maintenex/utils/constants/text_strings.dart';
-import 'package:maintenex/utils/theme/theme.dart';
+
+import 'bindings/general_bindings.dart';
+import 'utils/constants/colors.dart';
+import 'utils/constants/text_strings.dart';
+import 'utils/theme/theme.dart';
+
 
 class App extends StatelessWidget {
   const App({super.key});

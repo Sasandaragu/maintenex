@@ -4,11 +4,13 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:maintenex/app.dart';
-import 'package:maintenex/data/repositories/authentication/authentication_repository.dart';
-import 'package:maintenex/features/reminders/screens/local_notifications.dart';
-import 'package:maintenex/firebase_options.dart';
+
 import 'package:timezone/data/latest.dart' as tz;
+
+import 'Features/reminders/screens/local_notifications.dart';
+import 'app.dart';
+import 'data/repositories/authentication/authentication_repository.dart';
+import 'firebase_options.dart';
 
 Future<void> main() async {
 
