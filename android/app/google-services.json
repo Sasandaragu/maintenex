@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "290187046863",
+    "project_id": "maintenex-99b32",
+    "storage_bucket": "maintenex-99b32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290187046863:android:72d9494817567395daacba",
+        "android_client_info": {
+          "package_name": "com.maintenex.android.abc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290187046863-e6qf3dkifnuqpspaok89ndovpiddh5vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maintenex.android.abc",
+            "certificate_hash": "84bdfcff47d0d6dd18a2fcc48003c8381586d3e4"
+          }
+        },
+        {
+          "client_id": "290187046863-5ifttgfji5t536malrv7th9ed8m42an4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC01JPj3ALzbBCJ6mrqa40OepzWgo6h87A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290187046863-5ifttgfji5t536malrv7th9ed8m42an4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "290187046863-e802bo9sdmmhva1kgctfnfdpo84s0g83.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.maintenex.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
