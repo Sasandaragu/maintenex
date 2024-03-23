@@ -8,7 +8,7 @@ import 'package:intl/intl.dart';
 import 'package:path/path.dart' as Path;
 
 import '../../../../Features/maintenance/models/service_record/service_record_model.dart';
-import '../../../../features/reminders/models/milestone_model.dart';
+import '../../../../Features/reminders/models/milestone_model.dart';
 import '../../authentication/authentication_repository.dart';
 import '../../vehicle/vehicle_repository.dart';
 

@@ -4,9 +4,9 @@ import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../Features/vehicle/models/vehicle_model.dart';
-import '../../../features/Home/screens/home_screens.dart';
-import '../../../features/reminders/models/milestone_model.dart';
-import '../../../features/reminders/screens/local_notifications.dart';
+import '../../../Features/Home/screens/home_screens.dart';
+import '../../../../Features/reminders/models/milestone_model.dart';
+import '../../../Features/reminders/screens/local_notifications.dart';
 import '../authentication/authentication_repository.dart';
 
 class VehicleRepository extends GetxController {
