@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../utils/constants/colors.dart';
 import '../../../../utils/constants/sizes.dart';
@@ -130,16 +131,33 @@ class TSignupForm extends StatelessWidget {
           children: [
             SizedBox(width:24, height: 24, child: Obx(() => Checkbox(value: controller.privacyPolicy.value, onChanged: (value) => controller.privacyPolicy.value = !controller.privacyPolicy.value))),
             const SizedBox(height: TSizes.spaceBtwInputFields),
-            Text.rich(
-              TextSpan(children: [
-                TextSpan(text:'${TText.iAgreeTo} ', style: Theme.of(context).textTheme.bodySmall),
-                TextSpan(text: '${TText.termsOfUse} ', style: Theme.of(context).textTheme.bodySmall!.apply(
-                  color: TColors.primary,
-                  decoration: TextDecoration.underline,
-                  decorationColor:TColors.primary,
-                )),
-              ]),
-            )
+            InkWell(
+              onTap: () async {
+                final Uri url = Uri.parse("https://maintenex.itsmesasandara.com/privacy-policy/");
+                if (await canLaunchUrl(url)) {
+                  await launchUrl(url);
+                } else {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text("Could not launch ${url.toString()}"),
+                    ),
+                  );
+                }
+              },
+              child: Text.rich(
+                TextSpan(children: [
+                  TextSpan(text: '${TText.iAgreeTo} ', style: Theme.of(context).textTheme.bodySmall),
+                  TextSpan(
+                    text: '${TText.termsOfUse} ',
+                    style: Theme.of(context).textTheme.bodySmall!.apply(
+                      color: TColors.primary,
+                      decoration: TextDecoration.underline,
+                      decorationColor: TColors.primary,
+                    ),
+                  ),
+                ]),
+              ),
+            ),
           ],
         ),
     
